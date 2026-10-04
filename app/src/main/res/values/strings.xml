@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Ubaid</string>
+    <string name="app_subtitle">Host Device Controller</string>
+    <string name="accessibility_service_desc">Enables Ubaid to perform remote touch gestures, navigation keys, and text input from your paired Salim controller.</string>
+    <string name="notification_channel_name">Ubaid Host Service</string>
+    <string name="notification_channel_desc">Active screen mirroring and peer connection for remote access.</string>
+    <string name="notification_title_active">Ubaid Host Active</string>
+    <string name="notification_text_waiting">Broadcasting and waiting for Salim controller…</string>
+    <string name="notification_text_connected">Connected to Salim. Mirroring active.</string>
+    <string name="notification_tap_to_resume_title">Screen Capture Paused</string>
+    <string name="notification_tap_to_resume_text">Tap here to re-authorize screen mirroring.</string>
+    
+    <!-- Setup strings -->
+    <string name="setup_title">Host Setup</string>
+    <string name="setup_subtitle">Configure Ubaid to accept remote access from your Salim controller device.</string>
+    <string name="step_screen_capture_title">Screen Mirroring</string>
+    <string name="step_screen_capture_desc">Allows Ubaid to capture and broadcast your screen live over peer-to-peer WebRTC.</string>
+    <string name="btn_authorize_screen">Authorize Screen Capture</string>
+    
+    <string name="step_accessibility_title">Remote Touch &amp; Control</string>
+    <string name="step_accessibility_desc">Enables gesture dispatching and global navigation (Back, Home, Recents) on this phone.</string>
+    <string name="btn_open_accessibility">Enable in Accessibility Settings</string>
+    
+    <string name="step_notification_title">Notification Forwarding</string>
+    <string name="step_notification_desc">Allows Ubaid to forward incoming notifications from apps to your Salim controller in real time.</string>
+    <string name="btn_grant_notifications">Grant Notification Access</string>
+    
+    <string name="step_storage_title">File System Access</string>
+    <string name="step_storage_desc">Enables direct peer-to-peer file browsing and transfer over an encrypted data channel.</string>
+    <string name="btn_grant_storage">Grant All Files Access</string>
+    
+    <string name="step_battery_title">Background Reliability</string>
+    <string name="step_battery_desc">Exempts Ubaid from battery optimization so it stays reachable even when idle at home.</string>
+    <string name="btn_disable_battery_opt">Exempt From Optimization</string>
+    
+    <string name="step_pairing_title">Pair With Salim</string>
+    <string name="step_pairing_desc">Scan this QR code using the Salim controller app on your other phone to permanently pair.</string>
+    <string name="btn_copy_pairing_id">Copy Pairing ID</string>
+    <string name="btn_finish_setup">Finish Setup &amp; Start Host</string>
+
+    <!-- Dashboard strings -->
+    <string name="status_broadcasting">Broadcasting</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_waiting">Waiting</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="host_id_label">Host Pairing ID</string>
+    <string name="btn_show_qr">Show QR Code</string>
+    <string name="btn_restart_service">Restart Host Service</string>
+    <string name="telemetry_battery">Battery</string>
+    <string name="telemetry_network">Network</string>
+    <string name="telemetry_screen">Screen</string>
+    <string name="telemetry_uptime">Uptime</string>
+    <string name="active_services_header">System Services</string>
+    <string name="activity_log_header">Remote Activity Log</string>
+    <string name="empty_log_message">Waiting for incoming commands or controller connection…</string>
+</resources>

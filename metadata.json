@@ -1,0 +1,6 @@
+{
+  "name": "Ubaid",
+  "description": "Host app for secure remote screen mirroring, touch control, notifications, and file access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
